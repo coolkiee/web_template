@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+    
+        body {
+            background-color: rgb(221, 221, 221);
+        }
+    
+        .header {
+            background-color: white;
+            text-align: center;
+            height: 130px;
+        }
+    
+        .menu {
+            background-color: rgb(0, 0, 0);
+            color: white;
+            padding: 20px;
+            width: auto;
+            overflow: hidden;
+        }
+    
+        div.menu a {
+            color: white;
+            text-align: left;
+            padding: 20px 15px;
+            text-decoration: none;
+        }
+    
+        div.menu a:hover {
+            background-color: white;
+            color: black;
+            border: 1px solid white;
+        }
+    
+        div.menu a:active {
+            background-color: black;
+            border: 1px solid white;
+            color: white;
+        }
+    
+        .menu a[href="acc"] {
+            float: right;
+            margin: -21px;
+            text-align: right;
+        }
+    
+        .sol {
+            float: left;
+            width: 74%;
+            margin-top: 20px;
+        }
+    
+        .sag {
+            float: right;
+            width: 24%;
+            margin-top: 20px;
+        }
+    
+        .title-75 {
+            background-color: white;
+        }
+    
+        .image {
+            background-color: gray;
+            height: 250px;
+            margin: 20px;
+        }
+    
+        .image p {
+            padding: 10px;
+        }
+    
+        p {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    
+        b {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    
+        .title-25 {
+            background-color: white;
+            height: auto;
+            padding-bottom: 20px;
+        }
+    
+        .fm-25 {
+            background-color: white;
+            height: auto;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+        }
+    
+        .popimg {
+            background-color: gray;
+            height: 83px;
+            padding: 20px;
+            margin: 0px 20px;
+        }
+    
+        .footer {
+            background-color: rgb(194, 194, 194);
+            width: 100%;
+            float: left;
+            text-align: center;
+            margin-top: 20px;
+        }
+    
+        .clearfix::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    
+        @media screen and (max-width: 900px) {
+    .sol, .sag {
+        width: 100%;
+        float: none;
+    }
+
+    .title-25, .title-75, .fm-25 {
+        width: 100%;
+        margin: 0;
+    }
+
+    .title-75, .title-25, .fm-25 {
+        float: none;
+    }
+
+    .menu {
+        padding: 10px;
+    }
+}
+
+    </style>
+    
+</head>
+<body>
+    <div class="header">
+        <br>
+        <h1>My Website</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div class="menu">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="acc">Account</a>
+    </div>
+
+    <div class="sol">
+        <div class="title-75">
+            <h1><b>TITLE HEADING</b></h1>
+            <b>Title Description. DEC 7, 2017</b>
+            <div class="image"><p>Image</p></div>
+            <p>Some Text .</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, eaque tempore odio libero neque aut incidunt delectus reiciendis autem non tenetur fugit nihil doloremque sunt possimus provident enim repellendus ipsa, perferendis ea sed, iure vel officiis? Fugiat excepturi perspiciatis voluptatibus? Porro ipsa culpa autem numquam assumenda illo amet. Tempore, dolore?</p>
+        </div>
+        <div class="title-75">
+            <h1><b>TITLE HEADING</b></h1>
+            <b>Title Description. DEC 7, 2017</b>
+            <div class="image"><p>Image</p></div>
+            <p>Some Text .</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, eaque tempore odio libero neque aut incidunt delectus reiciendis autem non tenetur fugit nihil doloremque sunt possimus provident enim repellendus ipsa, perferendis ea sed, iure vel officiis? Fugiat excepturi perspiciatis voluptatibus? Porro ipsa culpa autem numquam assumenda illo amet. Tempore, dolore?</p>
+        </div>
+    </div>
+    
+    <div class="sag">
+        <div class="title-25">
+            <h1><b>About Me</b></h1>
+            <div class="image"><p>Image</p></div>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis laborum iusto nam laudantium est perferendis nemo vitae dolorem quod eligendi.</p>
+        </div>
+        <div class="title-25">
+            <h1><b>About Me</b></h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis laborum iusto nam laudantium est perferendis nemo vitae dolorem quod eligendi.</p>
+        </div>
+        <div class="fm-25">
+            <h1><b>Follow Me</b></h1>
+            <p>Some text.</p>
+        </div>
+    </div>
+    <div class="footer">
+        <h1>footer</h1>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .menu{
+            background-color: rgb(97, 97, 97);
+            color: white;
+            padding: 20px ;
+            width: auto;
+            overflow: hidden;
+        }
+        div.menu a{
+            color: white;
+            margin: 20px;
+            text-align: left;
+            padding: 20px 15px;
+            text-decoration: none;
+        }
+        div.menu a:hover{
+            background-color: white;
+            color: black;
+        }
+        div.menu a:active{
+            background-color: black;
+            border: 1px solid white;
+            color:white;
+        }
+        .metin{
+
+            padding: 20px;
+            background-color: white;
+        }
+        .metin::after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .col-25-side{
+            width: 25%;
+            height: 250px;
+
+            float: left;
+        }
+        .col-50{
+            float: left;
+
+            width: 47%;
+            margin: 0px 20px
+
+        }
+        .footer{
+            text-align: center;
+            float: center;
+
+            padding: 20px;
+            background-color: rgb(212, 212, 212);
+        } 
+
+            
+        
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Header</h1>
+        
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, dolores!</p>
+    </div>
+    <div class="menu">
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+    </div>
+    <div class="metin">
+        <div class="col-25-side">
+            <h2>Side</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, explicabo.</p>
+        </div>
+        <div class="col-50">
+            <h2>Main content</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis fugiat eaque perspiciatis porro dolorem optio consequuntur culpa minima numquam dolore pariatur odit, repellat facere eius dolores deleniti beatae molestiae ad quo nostrum quis suscipit id laboriosam. Minima similique error iure. Molestias dolores temporibus similique quia. Libero qui aspernatur obcaecati fuga?</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem fugiat laborum distinctio magnam repellat veniam sint aliquam beatae officiis quia error suscipit dignissimos fuga quis asperiores voluptates at similique, perferendis facilis recusandae! Tempore debitis architecto dicta vitae enim necessitatibus. Ipsum quibusdam inventore reiciendis incidunt repellat esse animi nobis sint enim.</p>
+        </div>
+        <div class="col-25-side">
+            <h2>Side</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, laboriosam.</p>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Footer</p>
+    </div> 
+</body>
+</html>
